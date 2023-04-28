@@ -1,11 +1,11 @@
 .header {
-      border: 2px solid red;
+      /* border: 2px solid red; */
       height: 88px;
       padding: 20px 275px;
 }
 
 .header__container {
-      border: 2px solid black;
+      /* border: 2px solid black; */
       height: 100%;
       display: flex;
       justify-content: space-between;
