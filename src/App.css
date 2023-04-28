@@ -1,0 +1,25 @@
+* ,
+*::before,
+*::after
+{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      outline: none;
+      /* text-transform: capitalize; */
+      text-decoration: none;
+      scroll-behavior: smooth;
+      list-style: none;
+}
+
+a {
+      color: unset;
+}
+
+body {
+      background:white;
+      font-family: 'Lato', sans-serif;;
+}
+
+

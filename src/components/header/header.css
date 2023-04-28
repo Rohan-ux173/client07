@@ -1,0 +1,50 @@
+.header {
+      border: 2px solid red;
+      height: 88px;
+      padding: 20px 275px;
+}
+
+.header__container {
+      border: 2px solid black;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.menu-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+}
+a {
+      position: relative;
+      cursor: pointer;
+      transition: 0.2s ease-in-out all;
+      /* text-transform: capitalize; */
+}
+
+a:hover {
+      color: blueviolet;
+}
+
+.menu-items a::after {
+      content: "";
+      position: absolute;
+      background-color: blueviolet;
+      height: 2px;
+      width: 0;
+      left: 0;
+      bottom: -5px;
+      transition: 0.2s all ease-in-out;
+}
+
+a:hover::after {
+      width: 70%;
+      color: blueviolet;
+}
+
+span {
+      color: blueviolet;
+}
